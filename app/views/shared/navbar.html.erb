@@ -1,0 +1,49 @@
+<!-- NAVBAR -->
+
+<div class="navbar-mihivai">
+  <!-- Logo -->
+  <a href="/" class="navbar-mihivai-brand">
+    <%= image_tag "logo.png" %>
+  </a>
+
+  <div class="d-none d-md-block">
+    <div class="d-flex align-items-center justify-content-between">
+      <%= link_to "comment ça marche ?", "#", class: "navbar-mihivai-item navbar-mihivai-link" %>
+      <%= link_to "qui sommes nous ?", "/", class: "navbar-mihivai-item navbar-mihivai-link" %>
+      <%= link_to "CGV", "/", class: "navbar-mihivai-item navbar-mihivai-link" %>
+    </div>
+  </div>
+
+  <div class="d-block d-md-none">
+    <div class="navbar-dropdown">
+      <input id="toggle" type="checkbox"/>
+      <label class="hamburger" for="toggle">
+        <div class="top"></div>
+        <div class="meat"></div>
+        <div class="bottom"></div>
+      </label>
+
+      <div class="nav">
+        <div class="nav-wrapper">
+          <nav class= "d-flex flex-column">
+            <%= link_to "ACCUEIL", root_path, class: "navbar-link" %>
+            <%= link_to "COMMENT ÇA MARCHE?", "#", class: "navbar-link" %>
+            <%= link_to "CGV", "/", class: "navbar-link" %>
+            <%= link_to "QUI SOMMES NOUS?", "/", class: "navbar-link" %>
+
+          </nav>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div style="height: 70px;"></div>
+
+<!-- fin NAVBAR -->
+
+
+
+
+

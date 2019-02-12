@@ -1,0 +1,42 @@
+footer.footer {
+  background: $orange;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  i.far {
+    color: white;
+    font-size: 4em;
+    padding: 25px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    transition: all 0.3s;
+    margin: 0px 10px;
+    cursor: pointer;
+    &:hover {
+      text-shadow: 2px 2px 0px $primary;
+      backface-visibility: hidden;
+      transform: translateZ(0) scale(1.2);
+    }
+  }
+
+  i.fab {
+    color: #fff;
+    font-size: 4em;
+    padding: 25px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    transition: all 0.3s;
+    margin: 0px 10px;
+    cursor: pointer;
+    &:hover {
+      text-shadow: 2px 2px 0px $primary;
+      backface-visibility: hidden;
+      transform: translateZ(0) scale(1.2);
+    }
+  }
+}
+
